@@ -2,3 +2,52 @@ body {
     margin: 0;
     padding: 0;
 }
+
+h1 {
+    font-size: 50px;
+    font-family: 'Yeseva One', cursive;
+}
+
+p {
+    text-align: justify;
+    font-family: poppins;
+}
+
+.bg-color {
+    color: chocolate;
+    display: block;
+}
+
+.focused {
+    border-left: 3px solid crimson;
+    padding-left: 30px;
+}
+
+.top-section {
+    display: flex;
+    margin-top: 70px;
+}
+
+.half-width {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.half-width img {
+    width: 70%;
+}
+
+.link-button {
+    background-image: linear-gradient(red, tomato);
+    padding: 15px 40px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: poppins;
+    border-radius: 10px;
+}
+
+.link {
+    margin: 40px 0px 50px;
+}
