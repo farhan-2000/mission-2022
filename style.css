@@ -8,6 +8,11 @@ h1 {
     font-family: 'Yeseva One', cursive;
 }
 
+h2 {
+    font-size: 30px;
+    font-family: 'Yeseva One', cursive;
+}
+
 p {
     text-align: justify;
     font-family: poppins;
@@ -50,4 +55,58 @@ p {
 
 .link {
     margin: 40px 0px 50px;
+}
+
+/* mission section  */
+.mission-section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.mission-section h1 {
+    text-align: center;
+}
+
+.mission-items {
+    display: flex;
+}
+
+.missions {
+    width: 30%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 30px 20px;
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 5%;
+}
+
+.missions img {
+    width: 40%;
+}
+
+/* develop section  */
+.develop-section {
+    background-image: url(img/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position-x: left;
+    background-position-y: center;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.develop-items {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#dep-1 {
+    padding-left: 50px;
+}
+
+#dep-2 {
+    padding-right: 50px;
 }
