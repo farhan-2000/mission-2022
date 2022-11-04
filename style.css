@@ -110,3 +110,18 @@ p {
 #dep-2 {
     padding-right: 50px;
 }
+
+/* community section  */
+.community-section {
+    display: flex;
+    background-image: url(img/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position-x: right;
+    background-position-y: bottom;
+    margin: 100px 30px;
+}
+
+#community-1 {
+    margin-top: 70px;
+}
